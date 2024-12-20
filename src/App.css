@@ -1,0 +1,126 @@
+header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+h1 {
+  position: absolute;
+  margin: 53px 0;
+  font-size: 64px;
+  color: #ffffff;
+  font-family: "racing Sans One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1::before,
+h1::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 50px;
+  height: 2px;
+  background-color: #ffffff;
+}
+
+h1::before {
+  left: calc(50% - 240px);
+}
+
+h1::after {
+  left: calc(50% + 190px);
+}
+
+.NotePencil {
+  size: 38px 38px;
+  margin-top: 127px;
+}
+
+.line {
+  width: 240px;
+  height: 2px;
+  margin: 127px 32px 0 32px;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.input-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+.input-container input {
+  width: 826px;
+  height: 49.5px;
+  padding: 10px 160px 10px 20px;
+  border: none;
+  font-family: "racing Sans One", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  color: #222222;
+  border-radius: 20px;
+  background-color: #d9d9d9;
+}
+
+.input-container button {
+  position: absolute;
+  font-family: "racing Sans One", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  transform: translateX(341px);
+  background-color: #4f4f4f;
+  width: 144px;
+  height: 49.5px;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.task-list {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 117px auto;
+}
+
+.task-item {
+  display: flex;
+  width: 822px;
+  height: 38px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e1e1e;
+  margin: 17.5px 0;
+  padding: 0 0 0 15px;
+  border-radius: 10px;
+}
+
+.task-item span {
+  color: #ffffff;
+  font-size: 19px;
+  font-family: Inter;
+  font-weight: 400;
+}
+
+.remove-button {
+  border: none;
+  background-color: #999999;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 38px;
+  width: 38px;
+}
+
+
